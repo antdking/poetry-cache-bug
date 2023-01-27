@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "poetry-cache-bug"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "poetry_cache_bug"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+face = "20.1.1"
+pytrends = "4.8.0"
+lxml = "4.9.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
